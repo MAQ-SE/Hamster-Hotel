@@ -44,7 +44,41 @@
     color: #E5FEFF;
 }
 .paradise-Container{
-    background-color: #000324;
     height: 416px;
+}
+.img-hamster{
+    width: 369px;
+    height: 416px;
+}
+.hamster-house-container{
+    height: 100%;
+    width: 90%;
+}
+.rooms-Container{
+    width: 100%;
+    height: 738px;
+    
+    overflow: hidden;
+}
+.hotel-galler-container{
+    width: 100%;
+}
+.hotel-galler-container img{
+    width: 100%;
+}
+.hotel-galler-container h1{
+    position: absolute;
+    font-family: Dosis, Regular;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.card-container{
+    position: absolute;
+    width: 1,142px;
+    height: 522px;
+}
+.card img{
+    width: 369px;
+    height: 190px;
 }
 
