@@ -1,128 +1,219 @@
-.titlebg{
-    background-color: #000324;
+.titlebg {
+  background-color: #000324;
 }
-.nav-item a{
-    color: white;
+.nav-item a {
+  color: white;
 }
-.reserve{
-    border: 2px solid #E5FEFF;
+.reserve {
+  border: 2px solid #e5feff;
 }
-.nav{
-    padding-top: 70px;
+.nav {
+  padding-top: 70px;
 }
-.column-two{
-    padding-left: 5%;
+.column-two {
+  padding-left: 5%;
 }
-.mainimg-Container{
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
+.mainimg-Container {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
 }
-.img-container{
-    height: 100%;
-    width: 100%;
-    position: relative;
+.img-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
-.img-container img{
-    width: 100%;
-    height: 100%;
+.img-container img {
+  width: 100%;
+  height: 100%;
 }
-.luxury-container{
-    background-color: #000324d4;
-    width: 945px;
-    height: 232px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 2px;
-    margin-top: 15em;
-    margin-left: 20%;
+.luxury-container {
+  background-color: #000324d4;
+  width: 945px;
+  height: 232px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2px;
+  margin-top: 15em;
+  margin-left: 20%;
 }
-.text-container h1,p{
-    color: #E5FEFF;
+.text-container h1,
+p {
+  color: #e5feff;
 }
-.paradise-Container{
-    height: 416px;
+.paradise-Container {
+  height: 416px;
 }
-.img-hamster{
-    width: 369px;
-    height: 416px;
+.img-hamster {
+  width: 369px;
+  height: 416px;
 }
-.hamster-house-container{
-    height: 100%;
-    width: 90%;
+.hamster-house-container {
+  height: 100%;
+  width: 90%;
 }
-.rooms-Container{
-    width: 100%;
-    height: 738px;
-    
-    overflow: hidden;
+.rooms-Container {
+  width: 100%;
+  height: 738px;
+
+  overflow: hidden;
 }
-.hotel-galler-container{
-    width: 100%;
+.hotel-galler-container {
+  width: 100%;
 }
-.hotel-galler-container img{
-    width: 100%;
+.hotel-galler-container img {
+  width: 100%;
 }
-.hotel-galler-container h1{
-    position: absolute;
-    font-family: Dosis, Regular;
-    color: #FFFFFF;
-    font-size: 35px;
+.hotel-galler-container h1 {
+  position: absolute;
+  font-family: Dosis, Regular;
+  color: #ffffff;
+  font-size: 35px;
 }
-.card-container{
-    position: absolute;
-    width: 1,142px;
-    height: 738px;
+.card-container {
+  position: absolute;
+  width: 1, 142px;
+  height: 738px;
 }
-.card{
-    overflow: hidden;
-    height: 522px;
-    width: 369px;
-    margin-top: 80px;
+.card {
+  overflow: hidden;
+  height: 522px;
+  width: 369px;
+  margin-top: 80px;
 }
-.card-title{
-    font-family:normal normal normal 25px/32px Dosis; 
+.card-title {
+  font-family: normal normal normal 25px/32px Dosis;
 }
-.card-text{
-    color: black;
-    font-family: normal normal bold 16px/20px Source Sans Pro;
-    font-weight: bold;
+.card-text {
+  color: black;
+  font-family: normal normal bold 16px/20px Source Sans Pro;
+  font-weight: bold;
 }
-.card-body li{
-    font-family: normal normal normal 16px/20px Source Sans Pro;
+.card-body li {
+  font-family: normal normal normal 16px/20px Source Sans Pro;
 }
-.card img{
-    width: 369px;
-    height: 190px;
+.card img {
+  width: 369px;
+  height: 190px;
 }
-.btn{
-    border-radius:0px;
-    font-size: 20px;
-    width: 150px;
-    height: 50px;
+.btn {
+  border-radius: 0px;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
 }
-.packages-container{
-    height: 850px;
-    width: 100%;
-    background-color: aqua;
+.packages-container {
+  height: 850px;
+  width: 100%;
 }
-.text-center{
-    font-family:Dosis, Regular;
-    font-size: 35px;
-}
-.packages-details-container h1{
-    font-size: 35px;
-    font-family:Dosis, Regular;
-}
-.column-container{
-    width: 1137px;
-}
-.column-container img{
-    width: 561px;
-    height: 234px;
+.text-center {
+  font-family: Dosis, Regular;
+  font-size: 35px;
 }
 
-
+.packages-details-container h1 {
+  font-size: 35px;
+  font-family: Dosis, Regular;
+}
+.packages-Title {
+  width: 100%;
+}
+.column-container {
+  width: 1137px;
+}
+.column-container img {
+  width: 561px;
+  height: 234px;
+}
+.column-container h1 {
+  font-size: 25px;
+  font-family: Dosis, Regular;
+  padding-top: 10px;
+}
+.column-container h4 {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #1f51a8;
+}
+.column-container p {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #1a1b26;
+  font-family: Source Sans Pro, Regular;
+}
+.amenities-container {
+  width: 100%;
+  height: 548px;
+  background-color: #000324;
+}
+.amenities-container-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.amenities-container-img img {
+  width: 100%;
+  height: 100%;
+}
+.amenities-title {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  text-align: center;
+}
+.amenities-title h1 {
+  color: #ffffff;
+  font-family: Dosis, Regular;
+  font-size: 35px;
+}
+.amenities-title p {
+  color: #ffffff;
+  font-family: Source Sans Pro, Regular;
+  font-size: 16px;
+}
+.amenities-logos-container {
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.amenities-logos-container img {
+  width: 150px;
+  height: 101px;
+}
+.amenities-logos-container h1 {
+  font-size: 20px;
+  font-family: Source Sans Pro, Bold;
+  color: #ffffff;
+}
+.amenities-logos-row {
+  height: 20em;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.amenities-logos-row h1 {
+  font-family: Source Sans Pro, Bold;
+  font-size: 20px;
+}
+#img1 {
+  width: 150px;
+  height: 101px;
+}
+#img2 {
+  width: 150px;
+  height: 104px;
+}
+#img3 {
+  width: 100px;
+  height: 115px;
+}
+#img4 {
+  width: 155px;
+  height: 110px;
+}
