@@ -75,10 +75,54 @@
 .card-container{
     position: absolute;
     width: 1,142px;
+    height: 738px;
+}
+.card{
+    overflow: hidden;
     height: 522px;
+    width: 369px;
+    margin-top: 80px;
+}
+.card-title{
+    font-family:normal normal normal 25px/32px Dosis; 
+}
+.card-text{
+    color: black;
+    font-family: normal normal bold 16px/20px Source Sans Pro;
+    font-weight: bold;
+}
+.card-body li{
+    font-family: normal normal normal 16px/20px Source Sans Pro;
 }
 .card img{
     width: 369px;
     height: 190px;
 }
+.btn{
+    border-radius:0px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
+.packages-container{
+    height: 850px;
+    width: 100%;
+    background-color: aqua;
+}
+.text-center{
+    font-family:Dosis, Regular;
+    font-size: 35px;
+}
+.packages-details-container h1{
+    font-size: 35px;
+    font-family:Dosis, Regular;
+}
+.column-container{
+    width: 1137px;
+}
+.column-container img{
+    width: 561px;
+    height: 234px;
+}
+
 
