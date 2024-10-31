@@ -294,3 +294,8 @@ p {
     font-size: 16px;
     color: #E5FEFF;
 }
+/*@media screen and (max-width:780px) {
+    .titlebg{
+        width: 100%;
+    }
+}
