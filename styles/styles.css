@@ -515,5 +515,8 @@ p {
     .small-row input{
         width: 80%;
     }
+    .small-row h1{
+        font-size: 20px;
+    }
   }
 }
