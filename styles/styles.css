@@ -306,6 +306,9 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
+  .title-color {
+    color: #000324;
+  }
   .main-color {
     background-color: black;
   }
@@ -365,75 +368,111 @@ p {
   .column-container {
     width: 80%;
   }
-  .img-one{
+  .img-one {
     display: flex;
     justify-content: center;
   }
-  @media screen and (max-width: 822px){
-    
+  @media screen and (max-width: 822px) {
     .img-hamster {
-        height: 180px;
-        width: 200px;
-      }
-      .hamster-paradice-container{
-        height: 90%;
-        margin-bottom: 50%;
-      }
-      .card{
-        display: none;
-      }
-      .hotel-galler-container{
-        position: relative;
-      }
-      .carousel-container{
-        position: absolute;
-        background-color: white;
-        width: 100%;
-        height: 100%;
-        margin-top: 10%;
-      }
-      .carousel-item{
-        background-color: black;
-        height: 100%;
-        width: 100%;
-      }
-      .carousel-item img{
-        opacity: 50%;
-      }
-      .carousel-caption{
-        padding-bottom: 20%;
-      }
+      height: 180px;
+      width: 200px;
+    }
+    .hamster-paradice-container {
+      height: 90%;
+      margin-bottom: 50%;
+    }
+    .card {
+      display: none;
+    }
+    .hotel-galler-container {
+      position: relative;
+    }
+    .carousel-container {
+      position: absolute;
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      margin-top: 10%;
+    }
+    .carousel-item {
+      background-color: black;
+      height: 100%;
+      width: 100%;
+    }
+    .carousel-item img {
+      opacity: 50%;
+    }
+    .carousel-caption {
+      padding-bottom: 20%;
+    }
   }
-  @media screen and (min-width: 896px){
+  @media screen and (min-width: 896px) {
+    .carousel-container {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 896px) {
+    .card {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .amenities-container {
+      background-color: black;
+      margin-top: 10%;
+    }
+    .amenities-img {
+      display: none;
+    }
+    .reserve-bg-img-container {
+      display: none;
+    }
+    .reserve-room-container {
+      width: 100%;
+      height: 300px;
+      margin: 0px;
+      background-color: black;
+      margin-bottom: 0%;
+      display: none;
+      justify-content: space-around;
+    }
+    .container-user-input {
+      display: none;
+    }
+    .reserve-title {
+      display: none;
+    }
+    .small-row{
+      text-align: center;
+    }
+    .small-row button{
+        height: 30px;
+        width: 40px;
+        border-radius: 20px;
+    }
+    .small-row input{
+        border-radius: 20px;
+    }
+    .small-row h1{
+        color: white;
+    }
+  }
+  @media (min-width: 820px) {
+    .small-row {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 576px){
     .carousel-container{
-        display: none;
+        margin-top: 25%;
+        width: 80%;
+        height: 60%;
     }
-}
-@media screen and (max-width: 896px){
-    
-    .card{
-        display: none;
+    .carousel-caption h1,p{
+        font-size: 10px;
     }
-}
-@media screen and (max-width: 820px){
-    .amenities-container{
-        background-color: black;
-        margin-top: 1%;
+    .rooms-font{
+        padding-top: 90px;
     }
-    .amenities-img{
-        display: none;
-    }
-    .reserve-bg-img-container{
-        display: none;
-    }
-    .reserve-room-container{
-        margin-bottom: 10%;
-        background-color: black;
-    }
-    .input-rows{
-        flex-direction: column;
-    }
-    .container-user-input{
-    }
-}
+  }
 }
