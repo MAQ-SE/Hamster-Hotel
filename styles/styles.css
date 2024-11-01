@@ -305,7 +305,7 @@ p {
   color: #e5feff;
 }
 
-@media screen and (max-width: 1147px) {
+@media screen and (max-width: 1200px) {
   .main-color {
     background-color: black;
   }
@@ -321,11 +321,8 @@ p {
     margin-left: 2%;
   }
   .hamster-paradice-parent {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 30%;
+    margin-bottom: 10%;
     height: 90px;
   }
   .hamster-paradice-container {
@@ -346,7 +343,7 @@ p {
   }
   .rooms-Container {
     height: 500px;
-    margin-top: 200px;
+    margin-top: 10%;
     background-color: transparent;
   }
   .rooms-background-img {
@@ -368,4 +365,75 @@ p {
   .column-container {
     width: 80%;
   }
+  .img-one{
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 822px){
+    
+    .img-hamster {
+        height: 180px;
+        width: 200px;
+      }
+      .hamster-paradice-container{
+        height: 90%;
+        margin-bottom: 50%;
+      }
+      .card{
+        display: none;
+      }
+      .hotel-galler-container{
+        position: relative;
+      }
+      .carousel-container{
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+      }
+      .carousel-item{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+      }
+      .carousel-item img{
+        opacity: 50%;
+      }
+      .carousel-caption{
+        padding-bottom: 20%;
+      }
+  }
+  @media screen and (min-width: 896px){
+    .carousel-container{
+        display: none;
+    }
+}
+@media screen and (max-width: 896px){
+    
+    .card{
+        display: none;
+    }
+}
+@media screen and (max-width: 820px){
+    .amenities-container{
+        background-color: black;
+        margin-top: 1%;
+    }
+    .amenities-img{
+        display: none;
+    }
+    .reserve-bg-img-container{
+        display: none;
+    }
+    .reserve-room-container{
+        margin-bottom: 10%;
+        background-color: black;
+    }
+    .input-rows{
+        flex-direction: column;
+    }
+    .container-user-input{
+    }
+}
 }
