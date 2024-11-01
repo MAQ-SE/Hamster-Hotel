@@ -21,7 +21,7 @@
         class="navbar d-xl-none smaller-screen-nav navbar-dark bg-transparent fixed-top"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">options</a>
+          <a class="navbar-brand" >options</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -39,9 +39,7 @@
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-                options
-              </h5>
+              
               <button
                 type="button"
                 class="btn-close btn-close-white"
@@ -52,32 +50,32 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#overview-section"
                     >Overview</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#Rooms-section"
                     >Rooms</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#packages-section"
                     >Packages</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#amenities-section"
                     >Armenities</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#Contact-section"
                     >Contact</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Reserve</a>
+                  <a class="nav-link" href="#reserve-Room">Reserve</a>
                 </li>
               </ul>
             </div>
@@ -91,15 +89,15 @@
         <div class="col-xl-5 nav-first-set">
           <ul class="nav d-flex justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="#overview-section"
                 >Overview</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Rooms</a>
+              <a class="nav-link" href="#Rooms-section">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Packages</a>
+              <a class="nav-link" href="#packages-section">Packages</a>
             </li>
           </ul>
         </div>
@@ -113,15 +111,15 @@
         <div class="col-md-5 nav-first-set">
           <ul class="nav column-two justify-content-start nav-second-set">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a class="nav-link active" aria-current="page" href="#amenities-section"
                 >Armenities</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#Contact-section">Contact</a>
             </li>
             <li class="nav-item reserve">
-              <a class="nav-link" href="#">Reserve</a>
+              <a class="nav-link" href="#reserve-Room">Reserve</a>
             </li>
           </ul>
         </div>
@@ -159,10 +157,12 @@
               alt="hamster sitting on beach chair eating veggies"
             />
           </div>
-          <div class="col-xl-7 hamseters-paradice-text text-start">
+          <div class="col-xl-7 hamseters-paradice-text text-start" >
             <h1
+              
               class="text-color"
               style="font-size: 35px; font-family: Dosis, Regular"
+              id="overview-section"
             >
               Welcome to hamster's paradise
             </h1>
@@ -185,13 +185,12 @@
               thank you for choosing La Petite Maison.
             </p>
             <div class="award-container d-flex justify-content-evenly">
-              <img src="./Assests/awardfinest.png" alt="imgage of a award" style="height: 60px;" />
+              <img src="./Assests/awardfinest.png" alt="imgage of a award"/>
               <img
                 src="./Assests/awardsatisfaction.png"
                 alt="image of a award"
-                style="height: 60px;"
               />
-              <img src="./Assests/awardgenuine.png" alt="image of a award" style="height: 60px;" />
+              <img src="./Assests/awardgenuine.png" alt="image of a award"/>
             </div>
           </div>
         </div>
@@ -204,8 +203,9 @@
           class="rooms-background-img"
           src="./Assests/bg2.jpg"
           alt="image of a hotel gallery"
+          
         />
-        <h1 class="mt-xl-3 rooms-font">Our Rooms</h1>
+        <h1 class="mt-xl-3 rooms-font" id="Rooms-section">Our Rooms</h1>
 
         <div class="carousel-container">
           <div id="carouselExampleCaptions" class="carousel slide d-xl-none">
@@ -364,7 +364,7 @@
 
     <div class="packages-container">
       <div class="row packages-Title">
-        <div class="col-12 text-center text-color"><h1>Packages</h1></div>
+        <div class="col-12 text-center text-color" id="packages-section"><h1>Packages</h1></div>
       </div>
       <div class="package-details-container d-flex justify-content-center">
         <div class="row column-container">
@@ -429,7 +429,7 @@
       </div>
     </div>
 
-    <div class="amenities-container">
+    <div class="amenities-container" >
       <div class="amenities-container-img">
         <img
           class="object-fit-cover amenities-img"
@@ -437,7 +437,7 @@
           alt="image of house on a beach"
         />
         <div class="row amenities-title mt-xl-5">
-          <div class="col-xl-12 col-X-Small">
+          <div class="col-xl-12 col-X-Small" id="amenities-section">
             <h1>Amenities</h1>
             <p>
               Here at La Petite Maison, we invite you to enjoy our services in
@@ -489,7 +489,7 @@
       </div>
     </div>
 
-    <div class="reserve-room-container d-flex justify-content-center">
+    <div class="reserve-room-container d-flex justify-content-center" id="reserve-Room">
       <div class="reserve-title pt-4">
         <h1 class="title-color">Reserve a Room</h1>
       </div>
@@ -595,13 +595,13 @@
       />
     </div>
 
-    <div class="end-of-page-container d-flex justify-content-center">
+    <div class="end-of-page-container d-flex justify-content-center" id="Contact-section">
       <div class="ending-text mt-4">
         <div class="d-flex flex-column text-center">
           <div class="p-2">
             <img src="./Assests/Logo.png" alt="logo image" />
           </div>
-          <div class="p-2">
+          <div class="p-2" id="Contact-section">
             <h1>123 Sunflower Seed Rd., Cavia, California 95205</h1>
           </div>
           <div class="p-2">
