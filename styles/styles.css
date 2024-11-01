@@ -390,9 +390,12 @@ p {
     .carousel-container {
       position: absolute;
       background-color: black;
-      width: 100%;
+      width: 80%;
       height: 100%;
       margin-top: 10%;
+    }
+    .rooms-font{
+        padding-top: 25px;
     }
     .carousel-item {
       background-color: black;
@@ -473,6 +476,41 @@ p {
     }
     .rooms-font{
         padding-top: 90px;
+    }
+  }
+  @media screen and (max-width: 390px){
+    .carousel-container{
+        margin-top: 70%;
+        width: 80%;
+        height: 60%;
+    }
+    .carousel-caption h2{
+        font-size: 20px;
+        padding-top: 30px;
+
+        
+    }
+    .carousel-caption h5{
+        font-size: 10px;
+    }
+    .carousel-caption p{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    .rooms-font{
+        padding-top: 55%;
+    }
+    .amenities-container-img{
+       padding-top: 100%;
+        height: 40px;
+        width: 100%;
+    }
+    .amenities-container-img{
+        margin-top: 60%;
+    }
+    .amenities-logos-row{
+        width: 100%;
+        padding-top: 30%;
     }
   }
 }
