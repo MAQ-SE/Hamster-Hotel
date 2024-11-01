@@ -531,4 +531,40 @@ p {
         font-size: 20px;
     }
   }
+  @media screen and (max-width: 430px){
+    .rooms-font{
+        padding-top: 45%;
+    }
+    .carousel-container{
+        
+        margin-top: 60%;
+        background-color: transparent;
+    }
+    .carousel-caption h5{
+        font-size: 10px;
+    }
+    .carousel-caption p{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    .amenities-container-img{
+        padding-top: 80%;
+         height: 40px;
+         width: 100%;
+     }
+     .amenities-container-img{
+         margin-top: 35%;
+     }
+     .amenities-logos-row{
+         width: 100%;
+         padding-top: 30%;
+     }
+     .small-row h1{
+        font-size: 20px;
+     }
+     .small-row input{
+        width: 70%;
+     }
+    
+  }
 }
