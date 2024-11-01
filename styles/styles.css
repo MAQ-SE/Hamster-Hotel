@@ -512,5 +512,8 @@ p {
         width: 100%;
         padding-top: 30%;
     }
+    .small-row input{
+        width: 80%;
+    }
   }
 }
