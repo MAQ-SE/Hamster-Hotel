@@ -565,6 +565,27 @@ p {
      .small-row input{
         width: 70%;
      }
-    
+  }
+  @media screen and (max-width: 390px){
+    .carousel-container{
+        margin-top: 70%;
+        background-color: transparent;
+    }
+    .rooms-font{
+        padding-top: 55%;
+    }
+    .amenities-container-img{
+        padding-top: 80%;
+         height: 40px;
+         width: 100%;
+     }
+     .amenities-container-img{
+         margin-top: 65%;
+     }
+     .amenities-logos-row{
+         width: 100%;
+         padding-top: 45%;
+     }
+
   }
 }
