@@ -12,13 +12,83 @@
     />
     <link href="./styles/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="main-color">
     <div
       class="titlebg d-flex justify-content-center container-fluid"
       style="height: 120px"
     >
-      <div class="row d-flex justify-content-center container-fluid">
-        <div class="col-5 nav-first-set">
+      <nav
+        class="navbar d-xl-none smaller-screen-nav navbar-dark bg-transparent fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">options</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Dark offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Overview</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Rooms</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Packages</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Armenities</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reserve</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="row nav-row-container d-flex justify-content-center container-fluid"
+      >
+        <div class="col-lg-5 nav-first-set">
           <ul class="nav d-flex justify-content-end">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -33,14 +103,14 @@
             </li>
           </ul>
         </div>
-        <div class="col-2 d-flex justify-content-center">
+        <div class="col-12 col-lg-2 d-flex justify-content-center">
           <img
             id="img-top-logo"
             src="./Assests/Logo.png"
             alt="image of a hamster on a hamster wheel"
           />
         </div>
-        <div class="col-md-5 ">
+        <div class="col-md-5 nav-first-set">
           <ul class="nav column-two justify-content-start nav-second-set">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -78,31 +148,27 @@
     <div
       class="paradise-Container d-flex justify-content-center container-fluid mt-5"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-5 d-flex justify-content-end">
+      <div class="container hamster-paradice-parent">
+        <div class="row hamster-paradice-container">
+          <div
+            class="col-12 justify-content-center col-lg-5 img-hamster-container d-flex justify-content-lg-end"
+          >
             <img
               class="object-fit-cover img-hamster"
               src="./Assests/hamsterhomejpg.jpg"
               alt="hamster sitting on beach chair eating veggies"
             />
           </div>
-          <div class="col-7 text-start">
+          <div class="col-lg-7 hamseters-paradice-text text-start">
             <h1
-              style="
-                font-size: 35px;
-                font-family: Dosis, Regular;
-                color: #1a1b26;
-              "
+              class="text-color"
+              style="font-size: 35px; font-family: Dosis, Regular"
             >
               Welcome to hamster's paradise
             </h1>
             <p
-              style="
-                font-size: 16px;
-                font-family: Source Sans Pro, Regular;
-                color: #1a1b26;
-              "
+              class="text-color"
+              style="font-size: 16px; font-family: Source Sans Pro, Regular"
             >
               Nestled in the heart of Cavia California, La Petite Maison is a
               luxury hotel designed for the small mammal with extravagance in
@@ -110,11 +176,8 @@
               spa, and a pool with a beach side view.
             </p>
             <p
-              style="
-                font-size: 16px;
-                font-family: Source Sans Pro, Regular;
-                color: #1a1b26;
-              "
+              class="text-color"
+              style="font-size: 16px; font-family: Source Sans Pro, Regular"
             >
               Inspired by the warm beauty of the California Coast, we invite you
               to enjoy the rich accommodations along with our unmatched luxury.
@@ -134,9 +197,13 @@
       </div>
     </div>
 
-    <div class="rooms-Container mt-5">
+    <div class="rooms-Container mt-lg-5">
       <div class="hotel-galler-container d-flex justify-content-center">
-        <img src="./Assests/bg2.jpg" alt="image of a hotel gallery" />
+        <img
+          class="rooms-background-img"
+          src="./Assests/bg2.jpg"
+          alt="image of a hotel gallery"
+        />
         <h1 class="mt-3">Our Rooms</h1>
 
         <div class="card-container d-flex justify-content-center gap-3">
@@ -198,23 +265,24 @@
       </div>
     </div>
 
-    <div class="packages-container">
+    <div class="packages-container ">
       <div class="row packages-Title">
-        <div class="col-12 text-center"><h1>Packages</h1></div>
+        <div class="col-12 text-center text-color"><h1>Packages</h1></div>
       </div>
-      <div class="package-details-container d-flex justify-content-center">
+      <div class="package-details-container  d-flex justify-content-center">
         <div class="row column-container">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 ">
             <img
-              class="object-fit-cover"
+              class="object-fit-lg-cover"
+              id="img-adjustment"
               src="./Assests/hamsterwedding.jpg"
               alt="hamster next to a heart"
             />
           </div>
-          <div class="col-6">
-            <h1>Beach Wedding package</h1>
-            <h4>Starting US $1,500.00</h4>
-            <p>
+          <div class="col-lg-6">
+            <h1 class="text-color">Beach Wedding package</h1>
+            <h4 class="text-color">Starting US $1,500.00</h4>
+            <p class="package-p-element text-color">
               Feel the warmth of the beach as the flames in your hearts ignite
               during our romantic beach side wedding. All wedding packages
               include catering, an open bar, and one tier wedding cake (9"
@@ -222,10 +290,10 @@
               members and friends will be provided after the ceremony.
             </p>
           </div>
-          <div class="col-6">
-            <h1>Full Bloom Package</h1>
-            <h4>Starting US $1,000.00</h4>
-            <p>
+          <div class="col-lg-6">
+            <h1 class="text-color">Full Bloom Package</h1>
+            <h4 class="text-color">Starting US $1,000.00</h4>
+            <p class="package-p-element text-color">
               Enjoy the shade of our cherry trees as you join us during our
               spring time celebration. We invite you to our orchards for cherry,
               strawberry, and apple picking that is open all day. We end each
@@ -233,24 +301,26 @@
               show from local musicians.
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6">
             <img
-              class="object-fit-cover"
+              class="object-fit-lg-cover"
+              id="package-wedding-2"
               src="./Assests/hamsterspring.jpg"
               alt="image of a hamster"
             />
           </div>
-          <div class="col-6">
+          <div class="col-lg-6">
             <img
-              class="object-fit-cover"
+              class="object-fit-lg-cover"
+              id="package-wedding-3"
               src="./Assests/hamstercheese.jpg"
               alt="image of a hamster"
             />
           </div>
-          <div class="col-6">
-            <h1>Cheese and Seed Tour Package</h1>
-            <h4>Starting US $1,200.00</h4>
-            <p>
+          <div class="col-lg-6">
+            <h1 class="text-color">Cheese and Seed Tour Package</h1>
+            <h4 class="text-color">Starting US $1,200.00</h4>
+            <p class="text-color">
               Immerse yourself in the flavors of Cavia with our Cheese and Seed
               tour. We consulted with connoisseurs from around the globe to
               bring you the best flavors that nature has to offer, and create
@@ -327,8 +397,6 @@
         <h1>Reserve a Room</h1>
       </div>
 
-
-
       <div class="container-user-input">
         <div class="input-container">
           <div class="row input-rows">
@@ -392,20 +460,30 @@
       </div>
     </div>
     <div class="reserve-bg-img-container">
-        <img class="object-fit-cover" src="./Assests/hamsterreserve.jpg" alt="hamster image">
+      <img
+        class="object-fit-cover"
+        src="./Assests/hamsterreserve.jpg"
+        alt="hamster image"
+      />
     </div>
 
     <div class="end-of-page-container d-flex justify-content-center">
-        <div class="ending-text mt-4">
-            <div class="d-flex flex-column text-center ">
-                <div class="p-2"><img src="./Assests/Logo.png" alt="logo image"></div>
-                <div class="p-2"><h1>123 Sunflower Seed Rd., Cavia, California 95205</h1></div>
-                <div class="p-2"><p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p></div>
-            </div>
+      <div class="ending-text mt-4">
+        <div class="d-flex flex-column text-center">
+          <div class="p-2">
+            <img src="./Assests/Logo.png" alt="logo image" />
+          </div>
+          <div class="p-2">
+            <h1>123 Sunflower Seed Rd., Cavia, California 95205</h1>
+          </div>
+          <div class="p-2">
+            <p>
+              ©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.
+            </p>
+          </div>
         </div>
-        
+      </div>
     </div>
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
